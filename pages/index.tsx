@@ -21,43 +21,48 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <div className={styles.topBar}>
+                <div className={styles.home}>
+                    <div className={styles.topBar}>
 
-                    <img src="./logo.png" className={styles.topBarLogo} />
-                    <p className={styles.topBarTitle}>WMFire</p>
+                        <img src="./logo.png" className={styles.topBarLogo} />
+                        <p className={styles.topBarTitle}>WMFire</p>
 
-                    <div className={styles.infoButtons}>
-                        <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Home</Button>
-                        <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>About</Button>
-                        <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Resources</Button>
-                        <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Contact</Button>
+                        <div className={styles.infoButtons}>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Home</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>About</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Resources</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Contact</Button>
+                        </div>
+
+                        <div>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><FacebookIcon sx={{ fontSize: "37px" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><InstagramIcon sx={{ fontSize: "37px" }} /></Button>
+                        </div>
+
                     </div>
 
-                    <div>
-                        <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><FacebookIcon sx={{ fontSize: "37px" }} /></Button>
-                        <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><InstagramIcon sx={{ fontSize: "37px" }} /></Button>
-                    </div>
+                    <div className={styles.centerPiece}>
+                        <div className={styles.slideshow}>
+                            <img src="./undocuAlly.jpg" className={styles.image}></img>
+                        </div>
 
-                </div>
-
-                <div className={styles.centerPiece}>
-                    <div className={styles.slideshow}>
-                        <img src="./undocuAlly.jpg" className={styles.image}></img>
-                    </div>
-
-                    <div className={styles.missionStatement}>
-                        <div className={styles.smallMissionStatement}>
-                            <p><AccessibilityNewIcon sx={{ fontSize: "32px" }} /></p>
-                            <p className={styles.statementText}>
-                                We at WMFIRE address the inequities and obstacles faced by the immigrant,
-                                migrant, and undocumented communities-at-large through education, empowerment,
-                                and action. Our mission is to gather information and resources, provide advocacy, and
-                                promote awareness of immigration issues to incite positive change. We center on
-                                making the W&amp;M community and beyond equitable for all, regardless of immigration
-                                status.
-                            </p>
+                        <div className={styles.missionStatement}>
+                            <div className={styles.smallMissionStatement}>
+                                <p><AccessibilityNewIcon sx={{ fontSize: "32px" }} /></p>
+                                <p className={styles.statementText}>
+                                    We at WMFIRE address the inequities and obstacles faced by the immigrant,
+                                    migrant, and undocumented communities-at-large through education, empowerment,
+                                    and action. Our mission is to gather information and resources, provide advocacy, and
+                                    promote awareness of immigration issues to incite positive change. We center on
+                                    making the W&amp;M community and beyond equitable for all, regardless of immigration
+                                    status.
+                                </p>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <div className={styles.resources}>
                 </div>
             </main>
 
