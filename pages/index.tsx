@@ -1,9 +1,9 @@
 // next or css
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Button from '@mui/material/Button'
 
 // components
-import TemplateComponent from './components/TemplateComponent'
 
 export default function Home() {
     return (
@@ -15,7 +15,7 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <TemplateComponent />
+                <Button>Hello Kaitlin 😳</Button>
             </main>
 
         </div>
