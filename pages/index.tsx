@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Button from '@mui/material/Button'
+import Box from "@mui/material/Box";
 
 // components
 
@@ -15,7 +16,49 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <Button>Hello Kaitlin 😳</Button>
+                <Box className="topInfoBar"
+                    height={75}
+                    width={"90%"}
+                    display="flex"
+                    paddingLeft="10px"
+                    justifyContent="left"
+                    alignItems="center"
+                    bgcolor="#353935"
+                    border={5}
+                    borderColor="#FE914C"
+                    fontSize={24}
+                    borderRadius="10px"
+                >
+                    <img src="./logo.png" className="infoBarLogo"/>
+                    <p className="siteTitle"> WMFire </p>
+                </Box>
+
+                <Box className="missionStatement"
+                    height={400}
+                    width={"70%"}
+                    margin={"4%"}
+                    display="block"
+                    paddingLeft="60px"
+                    paddingRight="60px"
+                    paddingTop="50px"
+                    justifyContent="center"
+                    alignItems="center"
+                    bgcolor="#353935"
+                    border={5}
+                    borderColor="#FE914C"
+                    fontSize={26}
+                    borderRadius="10px"
+                >
+                    <p className="missionTitle"> WMFire </p>
+                    <p className="mission"> 
+                        We at WMFIRE address the inequities and obstacles faced by the immigrant,
+                        migrant, and undocumented communities-at-large through education, empowerment,
+                        and action. Our mission is to gather information and resources, provide advocacy, and
+                        promote awareness of immigration issues to incite positive change. We center on
+                        making the W&amp;M community and beyond equitable for all, regardless of immigration
+                        status.
+                    </p>
+                </Box>
             </main>
 
         </div>
