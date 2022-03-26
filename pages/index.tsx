@@ -10,7 +10,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 
 export default function Home() {
-    const colors = ["#00C49F", "#FFBB28"];
 
     return (
         <div className={styles.container}>
@@ -20,7 +19,7 @@ export default function Home() {
                 <link rel="icon" href="/1.png" />
             </Head>
 
-            <main className={styles.main}>
+            <main className={styles.main} id="home">
                 <div className={styles.home}>
                     <div className={styles.topBar}>
 
@@ -28,15 +27,15 @@ export default function Home() {
                         <p className={styles.topBarTitle}>WMFire</p>
 
                         <div className={styles.infoButtons}>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Home</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>About</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Resources</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }}>Contact</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#home" >Home</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#about" >About</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#resources" >Resources</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#contact" >Contact</Button>
                         </div>
 
                         <div>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><FacebookIcon sx={{ fontSize: "37px" }} /></Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }}><InstagramIcon sx={{ fontSize: "37px" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><FacebookIcon sx={{ fontSize: "37px" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><InstagramIcon sx={{ fontSize: "37px" }} /></Button>
                         </div>
 
                     </div>
@@ -62,15 +61,15 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className={styles.about}>
+                <div className={styles.about} id="about">
 
                 </div>
 
-                <div className={styles.resources}>
+                <div className={styles.resources} id="resources">
 
                 </div>
 
-                <div className={styles.contact}>
+                <div className={styles.contact} id="contact">
 
                 </div>
             </main>
