@@ -10,6 +10,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 
 export default function Home() {
+    const colors = ["#00C49F", "#FFBB28"];
+
     return (
         <div className={styles.container}>
             <Head>
@@ -39,8 +41,8 @@ export default function Home() {
                 </div>
 
                 <div className={styles.centerPiece}>
-                    <div className={styles.sunsetImage}>
-                        <img src="./sunset.jpg" className={styles.image}></img>
+                    <div className={styles.slideshow}>
+                        <img src="./undocuAlly.jpg" className={styles.image}></img>
                     </div>
 
                     <div className={styles.missionStatement}>
