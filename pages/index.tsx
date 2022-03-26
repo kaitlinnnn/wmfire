@@ -27,15 +27,15 @@ export default function Home() {
                         <p className={styles.topBarTitle}>WMFire</p>
 
                         <div className={styles.infoButtons}>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#home" >Home</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#about" >About</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#resources" >Resources</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "20px", fontFamily: "Montserrat" } }} href="#contact" >Contact</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#home" >Home</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#about" >About</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#resources" >Resources</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#contact" >Contact</Button>
                         </div>
 
                         <div>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><FacebookIcon sx={{ fontSize: "37px" }} /></Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><InstagramIcon sx={{ fontSize: "37px" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><FacebookIcon sx={{ fontSize: "1.5vw" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><InstagramIcon sx={{ fontSize: "1.5vw" }} /></Button>
                         </div>
 
                     </div>
@@ -47,7 +47,7 @@ export default function Home() {
 
                         <div className={styles.missionStatement}>
                             <div className={styles.smallMissionStatement}>
-                                <p><AccessibilityNewIcon sx={{ fontSize: "32px" }} /></p>
+                                <p><AccessibilityNewIcon sx={{ fontSize: "1.5vw" }} /></p>
                                 <p className={styles.statementText}>
                                     We at WMFIRE address the inequities and obstacles faced by the immigrant,
                                     migrant, and undocumented communities-at-large through education, empowerment,
