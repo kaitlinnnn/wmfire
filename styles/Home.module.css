@@ -25,6 +25,7 @@
 }
 
 .topBar {
+    font-size: 1.3vw;
     display: flex;
     flex-direction: "row";
     align-items: center;
@@ -49,7 +50,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
-    font-size: 25px;
     color: #353839;
 }
 
@@ -64,7 +64,7 @@
     width: 80vw;
 }
 
-.sunsetImage {
+.slideshow {
     width: 50%;
     height: 100%;
 }
@@ -82,10 +82,11 @@
     font-size: 20px;
     text-align: center;
     margin: auto;
-    height: 50%;
+    height: 60%;
     width: 40%;
 }
 
 .statementText {
+    font-size: 1.3vw;
     padding: 25px;
 }

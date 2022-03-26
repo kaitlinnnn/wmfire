@@ -39,20 +39,22 @@ export default function Home() {
                 </div>
 
                 <div className={styles.centerPiece}>
-                    <div className={styles.sunsetImage}>
-                        <img src="./sunset.jpg" className={styles.image}></img>
+                    <div className={styles.slideshow}>
+                        <img src="./undocuAlly.jpg" className={styles.image}></img>
                     </div>
 
                     <div className={styles.missionStatement}>
-                        <p><AccessibilityNewIcon sx={{ fontSize: "32px" }} /></p>
-                        <p className={styles.statementText}>
-                            We at WMFIRE address the inequities and obstacles faced by the immigrant,
-                            migrant, and undocumented communities-at-large through education, empowerment,
-                            and action. Our mission is to gather information and resources, provide advocacy, and
-                            promote awareness of immigration issues to incite positive change. We center on
-                            making the W&amp;M community and beyond equitable for all, regardless of immigration
-                            status.
-                        </p>
+                        <div className={styles.smallMissionStatement}>
+                            <p><AccessibilityNewIcon sx={{ fontSize: "32px" }} /></p>
+                            <p className={styles.statementText}>
+                                We at WMFIRE address the inequities and obstacles faced by the immigrant,
+                                migrant, and undocumented communities-at-large through education, empowerment,
+                                and action. Our mission is to gather information and resources, provide advocacy, and
+                                promote awareness of immigration issues to incite positive change. We center on
+                                making the W&amp;M community and beyond equitable for all, regardless of immigration
+                                status.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </main>
