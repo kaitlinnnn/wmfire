@@ -1,10 +1,12 @@
 .container {
+    scroll-behavior: smooth;
     padding: 0 2rem;
     position: relative;
     overflow-x: hidden;
 }
 
 .main {
+    scroll-behavior: smooth;
     min-height: 100vh;
     padding: 4rem 0;
     flex: 1;
@@ -27,11 +29,13 @@
 }
 
 .topBar {
+    z-index: 999;
     font-size: 1.3vw;
     display: flex;
     flex-direction: "row";
     align-items: center;
     position: absolute;
+    position: fixed;
     text-align: center;
     width: 100vw;
     height: 6vh;
@@ -119,6 +123,7 @@
     position: absolute;
     top: 210%;
 }
+
 
 /* contact */
 .contact {
