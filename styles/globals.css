@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+img.infoBarLogo {
+  width: 5%;
+  height: 90%;
+}
+
+p.mission {
+  color: #FAFCE9;
+  text-align: center;
+}
+
+p.missionTitle {
+  color: #FAFCE9;
+  text-align: center;
+}

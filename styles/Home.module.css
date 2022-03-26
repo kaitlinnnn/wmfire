@@ -7,7 +7,7 @@
     padding: 4rem 0;
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -22,4 +22,70 @@
         width: 100%;
         flex-direction: column;
     }
+}
+
+.topBar {
+    display: flex;
+    flex-direction: "row";
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 6vh;
+    left: 0px;
+    top: 0px;
+}
+
+.topBarLogo {
+    justify-self: flex-start;
+    padding-left: 20px;
+    padding-right: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.topBarTitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+    color: #353839;
+}
+
+.infoButtons {
+    margin: auto;
+}
+
+.centerPiece {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 80vw;
+}
+
+.sunsetImage {
+    width: 50%;
+    height: 100%;
+}
+
+.image {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%
+}
+
+.missionStatement {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    height: 50%;
+    width: 40%;
+}
+
+.statementText {
+    padding: 25px;
 }
