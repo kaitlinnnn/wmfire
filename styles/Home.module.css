@@ -107,11 +107,38 @@
 
 /* about */
 .about {
-    background-color: green;
     width: 100%;
-    height: 110%;
     position: absolute;
     top: 100%;
+}
+
+.aboutPeople {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.people {
+    margin: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.person {
+    background-color: #6caa9f;
+    width: 16%;
+    height: 100%;
+    align-items: center;
+}
+
+.personInfo {
+    padding-left: 2%;
+    font-family: "Montserrat";
+    font-size: xx-large;
+    align-items: center;
 }
 
 
@@ -121,7 +148,7 @@
     width: 100%;
     height: 110%;
     position: absolute;
-    top: 210%;
+    top: 220%;
 }
 
 
@@ -131,5 +158,5 @@
     width: 100%;
     height: 30%;
     position: absolute;
-    top: 310%;
+    top: 350%;
 }
