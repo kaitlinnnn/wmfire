@@ -79,14 +79,21 @@
     border: 1px solid black;
     border-radius: 10px;
     font-family: "Montserrat";
-    font-size: 20px;
     text-align: center;
     margin: auto;
     height: 60%;
     width: 40%;
 }
 
+.smallMissionStatement {
+    text-align: center;
+    margin: auto;
+    height: 90%;
+    width: 90%;
+}
+
 .statementText {
+    font-family: "Montserrat";
     font-size: 1.3vw;
-    padding: 25px;
+    margin: auto;
 }
