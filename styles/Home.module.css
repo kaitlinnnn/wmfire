@@ -27,11 +27,13 @@
 }
 
 .topBar {
+    z-index: 999;
     font-size: 1.3vw;
     display: flex;
     flex-direction: "row";
     align-items: center;
     position: absolute;
+    position: fixed;
     text-align: center;
     width: 100vw;
     height: 6vh;
@@ -119,6 +121,7 @@
     position: absolute;
     top: 210%;
 }
+
 
 /* contact */
 .contact {
