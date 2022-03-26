@@ -117,13 +117,47 @@
 
 /* resources */
 .resources {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     background-color: blue;
-    width: 100%;
+    width: 50%;
     height: 110%;
     position: absolute;
     top: 210%;
 }
 
+.onCampusResources {
+    background-color: white;
+}
+
+.onCampusResourcesText {
+    color: black;
+}
+
+.offCampusResources {
+    background-color: bisque;
+}
+
+.offCampusResourcesText {
+    color: blue;
+}
+
+.offCampusNotableText {
+    color: #0070f3;
+}
+
+.allyResources {
+    background-color: #353839;
+}
+
+.allyResourcesText {
+    color: blueviolet;
+}
+
+.allySocialMedia {
+    color: blueviolet;
+}
 
 /* contact */
 .contact {
@@ -131,5 +165,5 @@
     width: 100%;
     height: 30%;
     position: absolute;
-    top: 310%;
+    top: 695%;
 }

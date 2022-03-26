@@ -66,7 +66,231 @@ export default function Home() {
                 </div>
 
                 <div className={styles.resources} id="resources">
+                    <div className={styles.onCampusResources}>
+                        <p className={styles.onCampusResourcesText}>
+                            <b>On Campus Resources</b>
+                        </p>
+                        <p>
+                            <b>WMFIRE</b> (WM Fighting For Immigrant Rights and Equity - This is us!) <br/>
+                            We are more than happy to assist anyone in our community! We will do our best
+                            to provide you with guidance and resources. If something is out of our reach, we
+                            have connections on and off campus who may be able to help.
+                        </p>
+                        <p>
+                            <b>Reves Center</b> <br/><br/>
+                            The Reves Center works closely with the law firm McCandlish Holton of
+                            Richmond to provide support and assistance to DACA students on campus.
+                            Some services are free for W&amp;M students while others are offered at a reduced
+                            rate. For more information, click on the link below. <br/><br/>
+                            DACA Resource Hub <br/>
+                            https://www.wm.edu/offices/sel/daca-support/resources/index.php
+                        </p>
+                        <p>
+                            <b>Center of Student Diversity</b> <br/><br/>
+                            They focus on enhancing the experiences of students, particularly those of diverse
+                            backgrounds. They work closely with many student-run organizations and other 
+                            administrators in an attempt to improve our community. Feel free to visit them! <br/><br/>
+                            https://www.wm.edu/offices/studentdiversity/
 
+                        </p>
+                        <p>
+                            <b>Counseling Center</b> <br/><br/>
+                            Counseling sessions are free at the Wellness Center. If referring a student, 
+                            know that there is a counselor with experience working with undocumented students. <br/><br/>
+                            Dr. Carina Sudarsky-Gleiser
+
+                        </p>
+                        <p>
+                            <b>W&amp;M Law School Immigration Clinic</b> <br/><br/>
+                            The Immigration Clinic assists noncitizens with various immigration matters, 
+                            including the citizenship and naturalization process. The Clinic also aids 
+                            noncitizens seeking relief as victims of crime (U visa), domestic violence (VAWA), 
+                            and human trafficking (T visa), as well as those currently held in detention seeking
+                            release on bond. <br/><br/>
+                            Contact: Prof. Stacy Kern-Scheerer <br/>
+                            Email: sekernscheerer@wm.edu&emsp;&emsp;&emsp;Number: (757) 221-1460
+                        </p>
+                        <p>
+                            <b>Dare To Dream Fund</b> (Funding for DACA renewals) <br/><br/>
+                            Provides emergency support for students at W&amp;M with heightened vulnerability due 
+                            to their immigration classification. Can be used for DACA Renewal Fees.<br/><br/>
+                            To donate: <br/>
+                            https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4393 <br/><br/>
+                            To request funds: <br/>
+                            https://forms.wm.edu/form/view/41062/bee993cf06d8ce25611847e5b380a661
+                        </p>
+                        <p>
+                            <b>W&amp;M LatinX Alumni Jorge Alberto Urcuyo Scholarship</b><br/><br/>
+                            Provides need-based scholarship support to students who are residents in the U.S. 
+                            but whose immigration status or classification makes them ineligible to receive 
+                            federal student aid, with a preference for those who have been granted Deferred Action 
+                            for Childhood Arrivals (DACA) or Temporary Protected Status (TPS).
+                        </p>
+                        <p>
+                            <b>Refugee Student Support Fund</b> <br/><br/>
+                            Provides emergency support for students at William &amp; Mary with heightened vulnerability due 
+                            to their refugee status. <br/><br/>
+                            To Donate &amp; Learn More:<br/> 
+                            https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4702
+                            https://www.facebook.com/WMEmergencyFund/
+
+                        </p>
+                        <p>
+                            <b>HEART Fund</b> <br/><br/>
+                            The Health Emergency and Resources for the Tribe assists students experiencing financial hardships
+                            due to extenuating circumstances. At the moment, it is providing aid in response to COVID-19. For
+                            more information about how to donate or apply can be found in the link below: <br/><br/>
+                            https://www.wm.edu/offices/deanofstudents/heartfund/index.php 
+                        </p>
+                     </div>
+                     <div className={styles.offCampusResources}>
+
+                         {/* OFF CAMPUS RESOURCES  */}
+
+                        <p className={styles.offCampusResourcesText}>
+                            Off Campus Resources
+                        </p>
+                        <p>
+                            <b>Dream Project and Mentoring Program</b> <br/><br/>
+                            Non-profit organization in Arlington that encourages and supports promising immigrant youth in 
+                            their pursuit of higher education through mentoring, scholarships, advocacy, and community outreach. <br/><br/>
+                            https://www.dreamproject-va.org/mentoring/
+
+                        </p>
+                        <p>
+                        <b>Just Neighbors</b> <br/><br/>
+                            provide immigration legal services to low-income immigrants and refugees of all faiths and nationalities, 
+                            especially those who are most vulnerable. <br/><br/>
+                            https://www.justneighbors.org/
+
+                        </p>
+                        <p>
+                            <b>Legal Aid Justice Center</b> <br/><br/>
+                            The Legal Aid Justice Center is committed to providing a full range of services to clients, 
+                            including services our federal and state governments choose not to fund. Free Informational 
+                            sessions at Mason for current students are currently under development. <br/><br/>
+                            https://www.justice4all.org/
+
+                        </p>
+                        <p>
+                            <b>Ayuda</b> <br/><br/>
+                            Serving immigrants in the Washington, DC, metropolitan region. Has 36 full-time, bilingual attorneys
+                             and social workers/case managers providing legal, social, and language access services <br/><br/>
+                            https://ayuda.com/ 
+                        </p>
+                        <p>
+                            <b>Capital Immigrant’s Rights Coalition (CAIR)</b> <br/><br/>
+                            Only legal service provider providing legal representation to detained 
+                            Immigrants in facilities in DC, MD, and VA. <br/><br/>
+                            https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392734-Capital_Area_Immigrants_Rights_Coalition 
+                        </p>
+                        <p>
+                            <b>Tahirih Justice Center</b> <br/><br/>
+                            The Tahirih Justice Center is a national nonprofit that has served over 25,000 courageous
+                            individuals fleeing violence since 1997. Our efficient, effective, and innovative model
+                            of service is now delivered from five locations, and we’re committed to serving as many
+                            immigrant women and girls as possible. <br/><br/>
+                            https://www.tahirih.org/
+
+                        </p>
+                        <p>
+                            <b>Edu-futuro</b> <br/><br/>
+                            To empower immigrant and underserved youth and families through mentorship, education, leadership 
+                            development and parent engagement. <br/><br/>
+                            https://edu-futuro.org
+
+                        </p>
+
+                        {/* NOTABLE ORGANIZATIONS */}
+
+                        <p className={styles.offCampusNotableText}>
+                            Notable Organizations:
+                        </p>
+                        <p>
+                            <b>Virginia Coalition of Latino Organizations (VACOLAO)</b> <br/><br/>
+                            Serve as a working alliance among organizations in Virginia that serve or support the interest 
+                            of the Latino communities. <br/><br/>
+                            http://vacolao.org/
+
+                        </p>
+                        <p>
+                            <b>National Korean American Service &amp; Education Consortium (NAKASEC)</b> <br/><br/>
+                            Grassroots organization founded in 1994 by local community centers to project a progressive voice 
+                            and promote the full participation of Korean and Asian Americans within the larger society. <br/><br/>
+                            https://nakasec.org/ 
+                        </p>
+                        <p>
+                            <b>The Virginia Latina Advocacy Network (VALAN)</b> <br/><br/>
+                            operates as an extension of NLIRH, serving as the voice and advocacy presence in Virginia. 
+                            The VA LAN works with activists throughout Virginia to organize our communities around 
+                            issues-based campaigns that impact our families and our lives. <br/><br/>
+                            https://www.latinainstitute.org/en/virginia
+                        </p>
+                        <p>
+                            <b>ICE out of RVa</b> <br/><br/>
+                            Grassroots organization with the focus of making RVa a safer community for immigrant families 
+                            in fear of ICE; work to uplift the work of activists <br/><br/>
+                            https://www.facebook.com/ICEOUTOFRVA/
+                        </p>
+                        <p>
+                            <b>Sin Barreras (Charlottesville)</b> <br/><br/>
+                            non-profit that focuses on outreach to the immigrant (primarily Hispanic) community, connecting 
+                            individuals to services such as workshops in Health, Immigration, Legal affairs, Banking, Education, 
+                            and others. They also provide individual services, such as low-cost legal counseling and work one 
+                            on one in daily obstacles immigrants face. <br/><br/>
+                            https://sinbarrerascville.com
+                        </p>
+                        <p>
+                            <b>United We Dream</b> <br/><br/>
+                            United We Dream is the largest immigrant youth-led community in the country. We create 
+                            welcoming spaces for young people – regardless of immigration status – to support, engage, 
+                            and empower them to make their voice heard and win! <br/><br/>
+                            https://unitedwedream.org
+                        </p>
+                     </div>
+                     <div className={styles.allyResources}>
+                        <p className={styles.allyResourcesText}>
+                            Ally Resources
+                        </p>
+                        <p>
+                            <b>Book: “We Are Not Dreamers Undocumented Scholars Theorize Undocumented Life in the United States”</b>  <br/><br/>
+                            By centering the voices of undocuemtned scholars, Leisy J/ Abrego and genevieve Negron-Gonzales capture 
+                            the complexity of experiences, the intersectionality of identities, and the raw devastation and resilience 
+                            of undocumented life. <br/><br/>
+                            https://www.dukeupress.edu/we-are-not-dreamers
+
+                        </p>
+                        <p>
+                            <b>Book: “America for Americans: A History of Xenophobia in the United States”</b> <br/><br/>
+                            Erika Lee examines United States history to demonstrate how Xenophobia is a defining trait of our nation. 
+                            She effectively connects the past to contemporary politics. <br/><br/>
+                            https://www.barnesandnoble.com/w/america-for-americans-erika-lee/1130777503?ean=9781541672611
+                        </p>
+                        <p>
+                            <b>Blog: My Undocumented Life</b> <br/><br/>
+                            It provides up-to-date information and resources to undocumented students, their families, 
+                            and allies (including educators, counselors, and administrators). <br/><br/>
+                            https://mydocumentedlife.org
+                        </p>
+                        <p>
+                            <b>Life After College: A Guide for Undocumented Students</b> <br/><br/>
+                            This guide includes information, tips, and reouces about life after college for undocumented 
+                            students (now undocumented graduates) <br/><br/>
+                            https://mydocumentedlife.org
+                        </p>
+
+                        <p className={styles.allySocialMedia}>
+                            Social Media to Follow:
+                        </p>
+                        <p>
+                        @Undocumedia <br/>
+                        @UndocuBlack <br/>
+                        @FWDus <br/>
+                        @NILC_org <br/>
+                        @UnitedWeDream <br/>
+                        @TP
+                        </p>
+                     </div>
                 </div>
 
                 <div className={styles.contact} id="contact">
