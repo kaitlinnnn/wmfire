@@ -62,7 +62,16 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className={styles.about}>
+
+                </div>
+
                 <div className={styles.resources}>
+
+                </div>
+
+                <div className={styles.contact}>
+
                 </div>
             </main>
 
