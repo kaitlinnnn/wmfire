@@ -25,6 +25,7 @@
 }
 
 .topBar {
+    font-size: 1.3vw;
     display: flex;
     flex-direction: "row";
     align-items: center;
@@ -49,7 +50,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
-    font-size: 25px;
     color: #353839;
 }
 
@@ -80,13 +80,21 @@
     border: 1px solid black;
     border-radius: 10px;
     font-family: "Montserrat";
-    font-size: 20px;
     text-align: center;
     margin: auto;
-    height: 50%;
+    height: 60%;
     width: 40%;
 }
 
+.smallMissionStatement {
+    text-align: center;
+    margin: auto;
+    height: 90%;
+    width: 90%;
+}
+
 .statementText {
-    padding: 25px;
+    font-family: "Montserrat";
+    font-size: 1.3vw;
+    margin: auto;
 }
