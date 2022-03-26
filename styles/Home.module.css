@@ -23,3 +23,59 @@
         flex-direction: column;
     }
 }
+
+.topBar {
+    display: flex;
+    flex-direction: "row";
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 6vh;
+    left: 0px;
+    top: 0px;
+}
+
+.topBarLogo {
+    justify-self: flex-start;
+    padding-left: 20px;
+    padding-right: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.topBarTitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+    color: #353839;
+}
+
+.infoButtons {
+    margin: auto;
+}
+
+.socialButtons {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.centerPiece {
+    background-color: blue;
+    height: 80vh;
+    width: 90vw;
+}
+
+.sunsetImage {
+    background-color: red;
+    width: 50%;
+    height: 90%;
+}
+
+.missionStatement {
+    text-align: center;
+    width: 30vw;
+}
+

@@ -2,7 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #FAFCE9;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -14,10 +13,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-p.siteTitle {
-  color: #FAFCE9;
 }
 
 img.infoBarLogo {
