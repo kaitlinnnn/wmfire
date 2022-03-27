@@ -1,15 +1,17 @@
 // next or css
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
 // components
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import { Facebook } from '@mui/icons-material';
+import EmailIcon from '@mui/icons-material/Email';
 
 export default function Home() {
+    var d = new Date().getFullYear(); 
 
     return (
         <div className={styles.container}>
@@ -88,9 +90,6 @@ export default function Home() {
 
                 <div className={styles.resources} id="resources">
                     <div className={styles.onCampusResources}>
-
-                        {/* ON CAMPUS RESOURCES  */}
-
                         <p className={styles.onCampusResourcesText}>
                             <b>On Campus Resources</b>
                         </p>
@@ -167,10 +166,8 @@ export default function Home() {
                             https://www.wm.edu/offices/deanofstudents/heartfund/index.php 
                         </p>
                      </div>
+
                      <div className={styles.offCampusResources}>
-
-                         {/* OFF CAMPUS RESOURCES  */}
-
                         <p className={styles.offCampusResourcesText}>
                             <b>Off Campus Resources</b>
                         </p>
@@ -225,8 +222,6 @@ export default function Home() {
 
                         </p>
 
-                        {/* NOTABLE ORGANIZATIONS */}
-
                         <p className={styles.offCampusNotableText}>
                             <b>Notable Organizations:</b>
                         </p>
@@ -273,8 +268,6 @@ export default function Home() {
                         </p>
                      </div>
 
-                        {/* ALLY RESOURCES */}
-
                      <div className={styles.allyResources}>
                         <p className={styles.allyResourcesText}>
                             <b>Ally Resources</b>
@@ -306,8 +299,6 @@ export default function Home() {
                             https://mydocumentedlife.org
                         </p>
 
-                        {/* SOCIAL MEDIA TO FOLLOW */}
-
                         <p className={styles.allySocialMedia}>
                             <b>Social Media to Follow:</b>
                         </p>
@@ -323,8 +314,12 @@ export default function Home() {
                 </div>
 
                 <div className={styles.contact} id="contact">
-
+                    <p className={styles.icon1}><InstagramIcon sx={{ fontSize: "2vw" }} /> @wmfire__</p>
+                    <p className={styles.icon2}><FacebookIcon  sx={{ fontSize: "2vw" }} /> @FightingForImmigrantRightsandEquity</p>
+                    <p className={styles.icon3}><EmailIcon sx={{ fontSize: "2vw" }} /> wmfire@email.wm.edu</p>
+                    <p className={styles.copyright}>Copyright &#169; {d}, WMFire. All Rights Reserved</p>
                 </div>
+
             </main>
 
         </div>
