@@ -67,23 +67,23 @@ export default function Home() {
                     <div className={styles.aboutPeople}>
                         <div className={styles.people}>
                             <div className={styles.person}></div>
-                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                            <p className={styles.personInfo}>Hi, I&apos;m Person.</p>
                         </div>
                         <div className={styles.people}>
                             <div className={styles.person}></div>
-                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                            <p className={styles.personInfo}>Hi, I&apos;m Person.</p>
                         </div>
                         <div className={styles.people}>
                             <div className={styles.person}></div>
-                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                            <p className={styles.personInfo}>Hi, I&apos;m Person.</p>
                         </div>
                         <div className={styles.people}>
                             <div className={styles.person}></div>
-                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                            <p className={styles.personInfo}>Hi, I&apos;m Person.</p>
                         </div>
                         <div className={styles.people}>
                             <div className={styles.person}></div>
-                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                            <p className={styles.personInfo}>Hi, I&apos;m Person.</p>
                         </div>
                     </div>
                 </div>
