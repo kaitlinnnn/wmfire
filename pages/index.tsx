@@ -106,14 +106,19 @@ export default function Home() {
                             Some services are free for W&amp;M students while others are offered at a reduced
                             rate. For more information, click on the link below. <br/><br/>
                             DACA Resource Hub <br/>
-                            https://www.wm.edu/offices/sel/daca-support/resources/index.php
+                            <a href="https://www.wm.edu/offices/sel/daca-support/resources/index.php">
+                                https://www.wm.edu/offices/sel/daca-support/resources/index.php
+                            </a>
                         </p>
                         <p>
                             <b>Center of Student Diversity</b> <br/><br/>
                             They focus on enhancing the experiences of students, particularly those of diverse
                             backgrounds. They work closely with many student-run organizations and other 
                             administrators in an attempt to improve our community. Feel free to visit them! <br/><br/>
-                            https://www.wm.edu/offices/studentdiversity/
+                            <a href="https://www.wm.edu/offices/studentdiversity/">
+                                https://www.wm.edu/offices/studentdiversity/
+                            </a>
+                            
 
                         </p>
                         <p>
@@ -138,9 +143,15 @@ export default function Home() {
                             Provides emergency support for students at W&amp;M with heightened vulnerability due 
                             to their immigration classification. Can be used for DACA Renewal Fees.<br/><br/>
                             To donate: <br/>
-                            https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4393 <br/><br/>
+                            
+                            <a href="https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4393">
+                                https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4393
+                            </a>
+                             <br/><br/>
                             To request funds: <br/>
-                            https://forms.wm.edu/form/view/41062/bee993cf06d8ce25611847e5b380a661
+                            <a href="https://forms.wm.edu/form/view/41062/bee993cf06d8ce25611847e5b380a661">
+                                https://forms.wm.edu/form/view/41062/bee993cf06d8ce25611847e5b380a661
+                            </a>
                         </p>
                         <p>
                             <b>W&amp;M LatinX Alumni Jorge Alberto Urcuyo Scholarship</b><br/><br/>
@@ -154,16 +165,21 @@ export default function Home() {
                             Provides emergency support for students at William &amp; Mary with heightened vulnerability due 
                             to their refugee status. <br/><br/>
                             To Donate &amp; Learn More:<br/> 
-                            https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4702
-                            https://www.facebook.com/WMEmergencyFund/
-
+                            <a href="https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4702">
+                                https://giving.wm.edu/give-now/?appealcode=20N00&amp;allocation=4702
+                            </a> <br/>
+                            <a href="https://www.facebook.com/WMEmergencyFund/">
+                                https://www.facebook.com/WMEmergencyFund/
+                            </a>
                         </p>
                         <p>
                             <b>HEART Fund</b> <br/><br/>
                             The Health Emergency and Resources for the Tribe assists students experiencing financial hardships
                             due to extenuating circumstances. At the moment, it is providing aid in response to COVID-19. For
                             more information about how to donate or apply can be found in the link below: <br/><br/>
-                            https://www.wm.edu/offices/deanofstudents/heartfund/index.php 
+                            <a href="https://www.wm.edu/offices/deanofstudents/heartfund/index.php">
+                                https://www.wm.edu/offices/deanofstudents/heartfund/index.php
+                            </a>
                         </p>
                      </div>
 
@@ -175,14 +191,17 @@ export default function Home() {
                             <b>Dream Project and Mentoring Program</b> <br/><br/>
                             Non-profit organization in Arlington that encourages and supports promising immigrant youth in 
                             their pursuit of higher education through mentoring, scholarships, advocacy, and community outreach. <br/><br/>
-                            https://www.dreamproject-va.org/mentoring/
-
+                            <a href="https://www.dreamproject-va.org/mentoring/">
+                                https://www.dreamproject-va.org/mentoring/
+                            </a>
                         </p>
                         <p>
                         <b>Just Neighbors</b> <br/><br/>
                             provide immigration legal services to low-income immigrants and refugees of all faiths and nationalities, 
                             especially those who are most vulnerable. <br/><br/>
-                            https://www.justneighbors.org/
+                            <a href="https://www.justneighbors.org/">
+                                https://www.justneighbors.org/
+                            </a>
 
                         </p>
                         <p>
@@ -190,20 +209,26 @@ export default function Home() {
                             The Legal Aid Justice Center is committed to providing a full range of services to clients, 
                             including services our federal and state governments choose not to fund. Free Informational 
                             sessions at Mason for current students are currently under development. <br/><br/>
-                            https://www.justice4all.org/
+                            <a href="https://www.justice4all.org/">
+                                https://www.justice4all.org/
+                            </a>
 
                         </p>
                         <p>
                             <b>Ayuda</b> <br/><br/>
                             Serving immigrants in the Washington, DC, metropolitan region. Has 36 full-time, bilingual attorneys
                              and social workers/case managers providing legal, social, and language access services <br/><br/>
-                            https://ayuda.com/ 
+                            <a href="https://ayuda.com/">
+                                https://ayuda.com/
+                            </a>
                         </p>
                         <p>
                             <b>Capital Immigrant&apos;s Rights Coalition (CAIR)</b> <br/><br/>
                             Only legal service provider providing legal representation to detained 
                             Immigrants in facilities in DC, MD, and VA. <br/><br/>
-                            https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392734-Capital_Area_Immigrants_Rights_Coalition 
+                            <a href="https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392734-Capital_Area_Immigrants_Rights_Coalition">
+                                https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392734-Capital_Area_Immigrants_Rights_Coalition
+                            </a> 
                         </p>
                         <p>
                             <b>Tahirih Justice Center</b> <br/><br/>
@@ -211,15 +236,17 @@ export default function Home() {
                             individuals fleeing violence since 1997. Our efficient, effective, and innovative model
                             of service is now delivered from five locations, and we’re committed to serving as many
                             immigrant women and girls as possible. <br/><br/>
-                            https://www.tahirih.org/
-
+                            <a href="https://www.tahirih.org/">
+                                https://www.tahirih.org/
+                            </a>
                         </p>
                         <p>
                             <b>Edu-futuro</b> <br/><br/>
                             To empower immigrant and underserved youth and families through mentorship, education, leadership 
                             development and parent engagement. <br/><br/>
-                            https://edu-futuro.org
-
+                            <a href="https://edu-futuro.org">
+                                https://edu-futuro.org
+                            </a>
                         </p>
 
                         <p className={styles.offCampusNotableText}>
@@ -229,27 +256,35 @@ export default function Home() {
                             <b>Virginia Coalition of Latino Organizations (VACOLAO)</b> <br/><br/>
                             Serve as a working alliance among organizations in Virginia that serve or support the interest 
                             of the Latino communities. <br/><br/>
-                            http://vacolao.org/
+                            <a href="http://vacolao.org/">
+                                http://vacolao.org/
+                            </a>
 
                         </p>
                         <p>
                             <b>National Korean American Service &amp; Education Consortium (NAKASEC)</b> <br/><br/>
                             Grassroots organization founded in 1994 by local community centers to project a progressive voice 
                             and promote the full participation of Korean and Asian Americans within the larger society. <br/><br/>
-                            https://nakasec.org/ 
+                            <a href="https://nakasec.org/">
+                                https://nakasec.org/
+                            </a>
                         </p>
                         <p>
                             <b>The Virginia Latina Advocacy Network (VALAN)</b> <br/><br/>
                             operates as an extension of NLIRH, serving as the voice and advocacy presence in Virginia. 
                             The VA LAN works with activists throughout Virginia to organize our communities around 
                             issues-based campaigns that impact our families and our lives. <br/><br/>
-                            https://www.latinainstitute.org/en/virginia
+                            <a href="https://www.latinainstitute.org/en/virginia">
+                                https://www.latinainstitute.org/en/virginia
+                            </a>
                         </p>
                         <p>
                             <b>ICE out of RVa</b> <br/><br/>
                             Grassroots organization with the focus of making RVa a safer community for immigrant families 
                             in fear of ICE; work to uplift the work of activists <br/><br/>
-                            https://www.facebook.com/ICEOUTOFRVA/
+                            <a href="https://www.facebook.com/ICEOUTOFRVA/">
+                                https://www.facebook.com/ICEOUTOFRVA/
+                            </a>
                         </p>
                         <p>
                             <b>Sin Barreras (Charlottesville)</b> <br/><br/>
@@ -257,14 +292,18 @@ export default function Home() {
                             individuals to services such as workshops in Health, Immigration, Legal affairs, Banking, Education, 
                             and others. They also provide individual services, such as low-cost legal counseling and work one 
                             on one in daily obstacles immigrants face. <br/><br/>
-                            https://sinbarrerascville.com
+                            <a href="https://sinbarrerascville.com">
+                                https://sinbarrerascville.com
+                            </a>
                         </p>
                         <p>
                             <b>United We Dream</b> <br/><br/>
                             United We Dream is the largest immigrant youth-led community in the country. We create 
                             welcoming spaces for young people – regardless of immigration status – to support, engage, 
                             and empower them to make their voice heard and win! <br/><br/>
-                            https://unitedwedream.org
+                            <a href="https://unitedwedream.org">
+                                https://unitedwedream.org
+                            </a>
                         </p>
                      </div>
 
@@ -277,26 +316,34 @@ export default function Home() {
                             By centering the voices of undocuemtned scholars, Leisy J/ Abrego and genevieve Negron-Gonzales capture 
                             the complexity of experiences, the intersectionality of identities, and the raw devastation and resilience 
                             of undocumented life. <br/><br/>
-                            https://www.dukeupress.edu/we-are-not-dreamers
+                            <a href="https://www.dukeupress.edu/we-are-not-dreamers">
+                                https://www.dukeupress.edu/we-are-not-dreamers
+                            </a>
 
                         </p>
                         <p>
                             <b>Book: “America for Americans: A History of Xenophobia in the United States”</b> <br/><br/>
                             Erika Lee examines United States history to demonstrate how Xenophobia is a defining trait of our nation. 
                             She effectively connects the past to contemporary politics. <br/><br/>
-                            https://www.barnesandnoble.com/w/america-for-americans-erika-lee/1130777503?ean=9781541672611
+                            <a href="https://www.barnesandnoble.com/w/america-for-americans-erika-lee/1130777503?ean=9781541672611">
+                                https://www.barnesandnoble.com/w/america-for-americans-erika-lee/1130777503?ean=9781541672611
+                            </a>
                         </p>
                         <p>
                             <b>Blog: My Undocumented Life</b> <br/><br/>
                             It provides up-to-date information and resources to undocumented students, their families, 
                             and allies (including educators, counselors, and administrators). <br/><br/>
-                            https://mydocumentedlife.org
+                            <a href="https://mydocumentedlife.org">
+                                https://mydocumentedlife.org
+                            </a>
                         </p>
                         <p>
                             <b>Life After College: A Guide for Undocumented Students</b> <br/><br/>
                             This guide includes information, tips, and reouces about life after college for undocumented 
                             students (now undocumented graduates) <br/><br/>
-                            https://mydocumentedlife.org
+                            <a href="https://mydocumentedlife.org">
+                                https://mydocumentedlife.org
+                            </a>
                         </p>
 
                         <p className={styles.allySocialMedia}>
