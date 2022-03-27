@@ -34,8 +34,8 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><FacebookIcon sx={{ fontSize: "1.5vw" }} /></Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="#contact"><InstagramIcon sx={{ fontSize: "1.5vw" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="https://www.facebook.com/FightingForImmigrantRightsandEquity/"><FacebookIcon sx={{ fontSize: "1.5vw" }} /></Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "#000000" } }} href="https://www.instagram.com/wmfire__/?hl=en"><InstagramIcon sx={{ fontSize: "1.5vw" }} /></Button>
                         </div>
 
                     </div>
