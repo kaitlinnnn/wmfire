@@ -200,7 +200,7 @@ export default function Home() {
                             https://ayuda.com/ 
                         </p>
                         <p>
-                            <b>Capital Immigrant’s Rights Coalition (CAIR)</b> <br/><br/>
+                            <b>Capital Immigrant&apos;s Rights Coalition (CAIR)</b> <br/><br/>
                             Only legal service provider providing legal representation to detained 
                             Immigrants in facilities in DC, MD, and VA. <br/><br/>
                             https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392734-Capital_Area_Immigrants_Rights_Coalition 
