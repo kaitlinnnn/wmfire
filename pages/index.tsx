@@ -317,7 +317,7 @@ export default function Home() {
                     <p className={styles.icon1}><InstagramIcon sx={{ fontSize: "2vw" }} /> @wmfire__</p>
                     <p className={styles.icon2}><FacebookIcon  sx={{ fontSize: "2vw" }} /> @FightingForImmigrantRightsandEquity</p>
                     <p className={styles.icon3}><EmailIcon sx={{ fontSize: "2vw" }} /> wmfire@email.wm.edu</p>
-                    <p className={styles.copyright}>Copyright &#169; {d}, WMFire. All Rights Reserved</p>
+                    <p className={styles.copyright}>Copyright © {d}, WMFire. All Rights Reserved</p>
                 </div>
 
             </main>
