@@ -169,6 +169,7 @@
 .offCampusResources {
     background-color: #FAFCE9;
     border: 5px solid #E06039;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
@@ -185,6 +186,7 @@
 .allyResources {
     background-color: #FAFCE9;
     border: 5px solid #E06039;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
@@ -200,9 +202,39 @@
 
 /* contact */
 .contact {
-    background-color: black;
+    background-color: #353839;
     width: 100%;
     height: 30%;
     position: absolute;
     top: 750%;
+    display: grid;
+    justify-content: center;
+}
+
+.icon1 {
+    color: #FAFCE9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon2 {
+    color: #FAFCE9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon3 {
+    color: #FAFCE9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    color: #FAFCE9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
