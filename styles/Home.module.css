@@ -55,7 +55,7 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    color: #353839;
+    color: black;
 }
 
 .infoButtons {
@@ -120,7 +120,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: blue;
+    background-color: #FAFCE9;
     width: 50%;
     height: 110%;
     position: absolute;
@@ -128,35 +128,46 @@
 }
 
 .onCampusResources {
-    background-color: white;
+    background-color: #FAFCE9;
+    border: 5px solid #E06039;
+    border-radius: 10px;
 }
 
 .onCampusResourcesText {
     color: black;
+    font-size:200%;
 }
 
 .offCampusResources {
-    background-color: bisque;
+    background-color: #FAFCE9;
+    border: 5px solid #E06039;
+    border-radius: 10px;
 }
 
 .offCampusResourcesText {
-    color: blue;
+    color: black;
+    font-size:200%;
 }
 
 .offCampusNotableText {
-    color: #0070f3;
+    color: black;
+    font-size:150%;
 }
 
 .allyResources {
-    background-color: #353839;
+    background-color: #FAFCE9;
+    border: 5px solid #E06039;
+    border-radius: 10px;
 }
 
 .allyResourcesText {
-    color: blueviolet;
+    color: black;
+    font-size:200%;
 }
 
 .allySocialMedia {
-    color: blueviolet;
+    color: black;
+    font-size:150%;
 }
 
 /* contact */
@@ -165,5 +176,5 @@
     width: 100%;
     height: 30%;
     position: absolute;
-    top: 695%;
+    top: 725%;
 }

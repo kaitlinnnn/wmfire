@@ -67,6 +67,9 @@ export default function Home() {
 
                 <div className={styles.resources} id="resources">
                     <div className={styles.onCampusResources}>
+
+                        {/* ON CAMPUS RESOURCES  */}
+
                         <p className={styles.onCampusResourcesText}>
                             <b>On Campus Resources</b>
                         </p>
@@ -148,7 +151,7 @@ export default function Home() {
                          {/* OFF CAMPUS RESOURCES  */}
 
                         <p className={styles.offCampusResourcesText}>
-                            Off Campus Resources
+                            <b>Off Campus Resources</b>
                         </p>
                         <p>
                             <b>Dream Project and Mentoring Program</b> <br/><br/>
@@ -204,7 +207,7 @@ export default function Home() {
                         {/* NOTABLE ORGANIZATIONS */}
 
                         <p className={styles.offCampusNotableText}>
-                            Notable Organizations:
+                            <b>Notable Organizations:</b>
                         </p>
                         <p>
                             <b>Virginia Coalition of Latino Organizations (VACOLAO)</b> <br/><br/>
@@ -248,9 +251,12 @@ export default function Home() {
                             https://unitedwedream.org
                         </p>
                      </div>
+
+                        {/* ALLY RESOURCES */}
+
                      <div className={styles.allyResources}>
                         <p className={styles.allyResourcesText}>
-                            Ally Resources
+                            <b>Ally Resources</b>
                         </p>
                         <p>
                             <b>Book: “We Are Not Dreamers Undocumented Scholars Theorize Undocumented Life in the United States”</b>  <br/><br/>
@@ -279,8 +285,10 @@ export default function Home() {
                             https://mydocumentedlife.org
                         </p>
 
+                        {/* SOCIAL MEDIA TO FOLLOW */}
+
                         <p className={styles.allySocialMedia}>
-                            Social Media to Follow:
+                            <b>Social Media to Follow:</b>
                         </p>
                         <p>
                         @Undocumedia <br/>
