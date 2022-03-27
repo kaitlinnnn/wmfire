@@ -27,10 +27,10 @@ export default function Home() {
                         <p className={styles.topBarTitle}>WMFire</p>
 
                         <div className={styles.infoButtons}>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#home" >Home</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#about" >About</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#resources" >Resources</Button>
-                            <Button sx={{ "&.MuiButton-text": { color: "#808080", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#contact" >Contact</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "black", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#home" >Home</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "black", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#about" >About</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "black", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#resources" >Resources</Button>
+                            <Button sx={{ "&.MuiButton-text": { color: "black", fontSize: "1.3vw", fontFamily: "Montserrat" } }} href="#contact" >Contact</Button>
                         </div>
 
                         <div>
