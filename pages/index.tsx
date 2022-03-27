@@ -62,7 +62,28 @@ export default function Home() {
                 </div>
 
                 <div className={styles.about} id="about">
-
+                    <div className={styles.aboutPeople}>
+                        <div className={styles.people}>
+                            <div className={styles.person}></div>
+                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                        </div>
+                        <div className={styles.people}>
+                            <div className={styles.person}></div>
+                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                        </div>
+                        <div className={styles.people}>
+                            <div className={styles.person}></div>
+                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                        </div>
+                        <div className={styles.people}>
+                            <div className={styles.person}></div>
+                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                        </div>
+                        <div className={styles.people}>
+                            <div className={styles.person}></div>
+                            <p className={styles.personInfo}>Hi, I'm Person.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={styles.resources} id="resources">
